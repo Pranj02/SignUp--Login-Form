@@ -1,0 +1,149 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+body {
+  height: 100vh;
+  background:linear-gradient(#028090, #560bad)
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 200px;
+  background: white;
+  padding-bottom: 30px;
+  width: 600px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.text {
+  color: #560bad;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.underline {
+  width: 4rem;
+  height: 6px;
+  background: #560bad;
+  border-radius: 9px;
+}
+
+.inputs {
+     margin-top: 55px;
+     display: flex;
+     flex-direction: column;
+     gap: 25px;
+}
+
+.input {
+     display: flex;
+     align-items: center;
+     margin: auto;
+     width: 480px;
+     height: 80px;
+     background:#4a5759;
+     border-radius: 6px;
+}
+
+.input img {
+     margin: 0 30px;
+}
+
+.input input {
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: beige;
+  font-size: 19px;
+}
+
+.forgot-password {
+  padding-left: 62px;
+  margin-top: 27px;
+  color: #4a5759;
+  font-size: 18px;
+}
+
+.forgot-password span {
+  color: #560bad;
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  gap: 30px;
+  margin: 60px auto;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 59px;
+  color:white;
+  background:#560bad;
+  border-radius: 50px;
+  font-size:19px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+.gray {
+  background:#4a5759;
+  color: beige;
+}
